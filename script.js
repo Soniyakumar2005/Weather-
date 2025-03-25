@@ -1,26 +1,26 @@
 // Simulated weather data (hardcoded for demonstration purposes)
 const weatherData = {
-    "Tenkasi": {
+    "New York": {
         temperature: 22,
         humidity: 60,
         description: "Sunny",
     },
-    "Tirunelveli": {
+    "London": {
         temperature: 16,
         humidity: 75,
         description: "Cloudy",
     },
-    "Kadayanallur": {
+    "Tokyo": {
         temperature: 18,
         humidity: 80,
         description: "Rainy",
     },
-    "Chennai": {
+    "Paris": {
         temperature: 20,
         humidity: 65,
         description: "Clear",
     },
-    "Madurai": {
+    "Sydney": {
         temperature: 25,
         humidity: 50,
         description: "Windy",
@@ -71,3 +71,4 @@ document.getElementById('cityInput').addEventListener('keypress', function (e) {
         getWeather();
     }
 });
+
